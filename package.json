@@ -2,16 +2,31 @@
   "name": "@realmq/node-sdk",
   "version": "0.0.0",
   "description": "The realmq node sdk provides developer friendly access to realmq REST & Realtime APIs.",
-  "author": "RealMQ GmbH <service@realmq.com> (https://realmq.com)",
   "license": "MIT",
+  "author": "RealMQ GmbH <service@realmq.com> (https://realmq.com)",
+  "contributors": [
+    "Alrik Zachert <alrik@realmq.com>"
+  ],
   "repository": "https://github.com/realmq/realmq-node-sdk",
+  "keywords": [
+    "realtime",
+    "realmq",
+    "api",
+    "sdk",
+    "mqtt",
+    "broker"
+  ],
+  "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
     "lint": "xo",
     "lint-fix": "xo --fix",
     "test": "echo 'No tests, yet' && exit 1"
   },
-  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^2.17.0",
+    "request": "^2.85.0"
+  },
   "devDependencies": {
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
@@ -30,8 +45,7 @@
     "space": true,
     "prettier": true
   },
-  "dependencies": {
-    "mqtt": "^2.17.0",
-    "request": "^2.85.0"
+  "publishConfig": {
+    "access": "public"
   }
 }
