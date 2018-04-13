@@ -1,6 +1,7 @@
 # RealMQ Node.js SDK
 
 [![NPM Package](https://img.shields.io/npm/v/@realmq/node-sdk.svg?style=flat-square)](https://www.npmjs.com/package/@realmq/node-sdk)
+[![Build Status](https://img.shields.io/travis/RealMQ/realmq-node-sdk/master.svg?style=flat-square)](https://travis-ci.org/RealMQ/realmq-node-sdk)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![MIT license](https://img.shields.io/github/license/realmq/realmq-node-sdk.svg?style=flat-square)](LICENSE)
 
