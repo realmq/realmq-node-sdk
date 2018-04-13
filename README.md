@@ -1,6 +1,63 @@
 # RealMQ Node.js SDK
 
-The realmq node sdk provides developer friendly access to realmq REST & Realtime APIs.
+[![NPM Package](https://img.shields.io/npm/v/@realmq/node-sdk.svg?style=flat-square)](https://www.npmjs.com/package/@realmq/node-sdk)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![MIT license](https://img.shields.io/github/license/realmq/realmq-node-sdk.svg?style=flat-square)](LICENSE)
+
+
+This node SDK provides developer friendly access the RealMQ REST & Real-time APIs.
+
+## About
+
+[RealMQ](https://realmq.com) is a highly scalable, privacy compliant real-time communication backbone.
+Our focus is to deliver great service with best possible integrability while you keep full control over your data.
+
+## Getting Started
+
+Get in touch with us to get an RealMQ account set up.
+You can do that by sending an email to service@realmq.com.
+
+### Installation
+
+```bash
+$ yarn add @realmq/node-sdk
+// or
+$ npm i -S @realmq/node-sdk
+```
+
+### Usage
+
+```js
+const realmq = require('@realmq/node-sdk')('<AUTH_TOKEN>');
+
+// create some resource
+const subscription = await realmq.subscriptions.create({
+  userId: 'user-1',
+  channelId: 'channel-1',
+  allowRead: true,
+});
+
+// or connect to the real-time API
+await realmq.rtm.connect();
+
+// and publish some message
+realmq.rtm.publish({
+  channel: 'channel-1',
+  message: {
+    text: 'Welcome!'
+  }
+});
+
+// receive messages
+realmq.rtm.on('message', (message) => {
+  console.warn(`received new message in channel: ${message.channel}`, message.data)
+});
+```
+
+
+## Documentation
+
+Please check out our full documentation on [realmq.com/docs/node-sdk](https://realmq.com/docs/node-sdk).
 
 ---
 
