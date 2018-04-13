@@ -6,7 +6,6 @@ cache: yarn
 git:
   depth: 1
 script:
-  - yarn lint
   - yarn test
 jobs:
   include:
