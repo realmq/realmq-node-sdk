@@ -1,6 +1,6 @@
 {
   "name": "@realmq/node-sdk",
-  "version": "0.1.0-alpha2",
+  "version": "0.1.0-alpha3",
   "description": "The realmq node sdk provides developer friendly access to realmq REST & Realtime APIs.",
   "license": "MIT",
   "author": "RealMQ GmbH <service@realmq.com> (https://realmq.com)",
