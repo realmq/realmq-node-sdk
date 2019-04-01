@@ -4,6 +4,7 @@
 [![Build Status](https://img.shields.io/travis/RealMQ/realmq-node-sdk/master.svg?style=flat-square)](https://travis-ci.org/RealMQ/realmq-node-sdk)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![MIT license](https://img.shields.io/github/license/realmq/realmq-node-sdk.svg?style=flat-square)](LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frealmq%2Frealmq-node-sdk.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frealmq%2Frealmq-node-sdk?ref=badge_shield)
 
 
 This node SDK provides developer friendly access the RealMQ REST & Real-time APIs.
@@ -66,3 +67,6 @@ Please check out our full documentation on [realmq.com/docs/node-sdk](https://re
 
 The files in this archive are released under MIT license.
 You can find a copy of this license in [LICENSE](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frealmq%2Frealmq-node-sdk.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frealmq%2Frealmq-node-sdk?ref=badge_large)
