@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Added
+- Add support for client id postfixes to allow multiple connections per token.
+- Add new config option `getClientIdPostfix` to customize the default.
+
 ## [0.1.0] - 2018-06-29
 ### Changed
 - Adapt new api url. #3
